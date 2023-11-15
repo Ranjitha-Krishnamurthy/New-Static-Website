@@ -1,0 +1,326 @@
+@import "./font.css";
+@import "./header-footer.css";
+:root {
+  --bs-primary-purple: #A435FB;
+  --bs-secondary-green: #14F195;
+  --bs-black: #000000;
+  --bs-light-white: #cacaca;
+  --bs-light-blue: #8EAAE1;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Syne-Regular";
+}
+h3 {
+  color: #fff;
+  font-size: 38px;
+  font-family: "Syne-Bold";
+  font-weight: 700;
+  line-height: 46.2px; /* 121.579% */
+  letter-spacing: 1px;
+}
+h2 {
+  font-family: "Helvetica-Regular";
+  font-size: 76px;
+  font-style: normal;
+  line-height: 132px; /* 173.684% */
+}
+h4 {
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 42px; /* 113.514% */
+  letter-spacing: 0.68px;
+}
+h5 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.04px; /* 118% */
+}
+p {
+  color: #c4c4c4;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 37.3px; /* 186.5% */
+}
+.join-community h3 {
+  max-width: 400px;
+}
+.grad-1 {
+  background: linear-gradient(262deg, #19FB9B 31.99%, #8C01FA 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.grad-2 {
+  background: linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.grad-3 {
+  background: linear-gradient(265deg, #00FFBD 40.16%, #025B8C 111.58%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.grad-label {
+  color: #fff;
+  font-family: "Poppins-Medium";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+}
+.card-border {
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background: #000;
+  background-clip: padding-box;
+  position: relative;
+  padding: 20px;
+}
+.card-border::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  background: linear-gradient(to bottom right, #a962ff, #19fb9b);
+  z-index: -1;
+  border-radius: 15px;
+}
+.load-more {
+  border-radius: 36px;
+  border: 1px solid #000;
+  background: linear-gradient(273deg, #8c01fa 0%, #000 109.69%);
+  padding: 12px 24px;
+  color: #fff;
+}
+.contact-us-btn {
+  border-radius: 36px;
+  border: 1px solid #000;
+  background: linear-gradient(99deg, #14f195 -2.99%, #000 102.28%);
+  padding: 12px 24px;
+  color: #fff;
+}
+.card {
+  padding: 1px;
+  background: linear-gradient(-190deg, #a962ff, #58ad8f);
+  border-radius: 15px;
+}
+.inner-card {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 13px;
+  padding: 20px;
+}
+.like-grad {
+  border-radius: 0px 15px;
+  background: linear-gradient(
+    148deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  backdrop-filter: blur(10px);
+  position: absolute;
+  padding: 15px 20px;
+  font-family: "Helvetica-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  top: 20px;
+  right: 20px;
+}
+.client-feedback .card .inner-card h6 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1.25px;
+  text-transform: capitalize;
+}
+.client-feedback .card .inner-card span {
+  color: #c4c4c4;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  text-transform: capitalize;
+}
+.client-feedback .card .inner-card p {
+  color: #c4c4c4;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27.3px; /* 160.588% */
+  margin-bottom: 30px;
+}
+.client-feedback {
+  overflow: hidden;
+}
+.client-feedback .card:hover,
+.client-feedback .card .inner-card:hover {
+  border-radius: 12px;
+  background: linear-gradient(0deg, #14f195 0%, #14f195 100%),
+    url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 2px 2px 100px 0px rgba(66, 66, 66, 0.1) inset,
+    -2px -2px 100px 0px rgba(255, 255, 255, 0.1) inset;
+  backdrop-filter: blur(25px);
+  cursor: pointer;
+}
+.client-feedback .card .inner-card:hover h6,
+.client-feedback .card .inner-card:hover p,
+.client-feedback .card .inner-card:hover span {
+  color: #000;
+}
+.client-feedback .card .inner-card:hover svg path {
+  fill: #000;
+}
+.client-feedback .card .inner-card .user img {
+  background: #ffd9a2;
+  border-radius: 10px;
+}
+.client-feedback .card .inner-card:hover .user img {
+  background: #00291a;
+}
+.our-mission h5 {
+  color: #ba86f9;
+  font-family: "Syne-SemiBold";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20.16px; /* 106.105% */
+}
+.our-mission p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 10px;
+}
+.about h3 {
+  color: #fff;
+  font-family: "Syne-Bold";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46.2px; /* 121.579% */
+  letter-spacing: 1px;
+}
+
+.signup {
+  margin-bottom: 80px;
+}
+.signup h4{
+    color:  #FFF;
+    opacity: 0.96;
+    font-family: 'Inter', sans-serif;
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: 130%; /* 65px */
+}
+.signup .signup-card .inner-card, .signup .card{
+  border-radius: 10px;
+}
+.signup .signup-msg p{
+color:#fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-bottom: 32px;
+}
+.text-purple{
+    color:  #898CA9;
+}
+.signup .email {
+  padding: 16px 20px;
+  background-color: transparent;
+  border: 0!important;
+  border-radius: 12px;
+  color:  #565976;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.signup .email::placeholder {
+    color:  #565976;
+}
+.signup .signup-btn {
+    background: transparent;
+    border:0;
+  padding: 14px 0;
+  width: fit-content;
+  right: 20px;
+}
+.banner{
+    background-image: url('../image/banner-image.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 160px 0 84px;
+}
+.banner h4{
+    background: linear-gradient(90deg, #14F195 0%, rgba(120, 254, 198, 0.48) 38.02%, #5C24FF 75.83%, #EFE0FF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: "Syne-Regular";
+font-size: 34px;
+font-weight: 400;
+letter-spacing: 0.68px;
+}
+.banner p{
+    color: #CACACA;
+  text-align: center;
+  font-family: "Syne-Medium";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 0.48px;
+}
+.view-more, .view-less{
+  position: relative;
+  text-align: center;
+  padding: 10px 0 0;
+  z-index: 10;
+  margin-top: 60px;
+}
+.view-less{
+  margin-top: 30px;
+  display: none;
+}
+.view-more:before {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  height: 280px;
+  content: '';
+  z-index: -1;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+}
+
+.slide {
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  padding-bottom: 50px;
+}
+
+.more {
+  text-decoration: none;
+  color: #14F195;
+  font-family: "Syne-SemiBold";
+font-size: 24px;
+font-weight: 600;
+line-height: 37.3px;
+}
+.view-less .more{
+  color:#fff
+}
+@media (min-width: 992px) {
+  .w-lg-50 {
+    width: 50% !important;
+  }
+}

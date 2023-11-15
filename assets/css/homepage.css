@@ -1,0 +1,297 @@
+.platform-features .col-md-6 p {
+  font-size: 17px;
+  line-height: 27.3px; /* 160.588% */
+}
+.platform-features .col-md-6,
+.platform-features .col-md-4 {
+  padding-right: 120px;
+}
+.platform-features .border-line {
+  width: 4px;
+  height: 33px;
+  border-radius: 20px;
+}
+.platform-features .border-line[data-color="#1FCFF1"] {
+  background-color: #1fcff1;
+}
+.platform-features .border-line[data-color="#F475FF"] {
+  background-color: #f475ff;
+}
+.platform-features .border-line[data-color="#9945FF"] {
+  background-color: #9945ff;
+}
+.platform-features .border-line[data-color="#FFD512"] {
+  background-color: #ffd512;
+}
+.platform-features .border-line[data-color="#19FB9B"] {
+  background-color: #19fb9b;
+}
+
+.business-case-studies .nav-tabs .nav-link {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: #111;
+  background-clip: padding-box;
+  padding: 10px 13px;
+  margin-left: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.3px; /* 170.625% */
+  position: relative;
+  min-width: 64px;
+  height: 48px;
+}
+.business-case-studies .nav-tabs .nav-link.active::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  background: linear-gradient(to bottom right, #a962ff, #19fb9b);
+  z-index: -1;
+  border-radius: 10px;
+}
+.business-case-studies .card-border h6 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1.25px;
+  text-transform: capitalize;
+}
+.business-case-studies .card-border span {
+  color: #c4c4c4;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  text-transform: capitalize;
+}
+.slider {
+  animation: slidein 30s linear infinite;
+}
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Contact us */
+.latest-news .description {
+  color: #c4c4c4;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 37.3px;
+}
+.latest-news .card-img {
+  border-radius: 15px;
+}
+.latest-news .card-img img {
+  object-fit: cover;
+}
+.latest-news .card-heading {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.latest-news .card-detail {
+  color: #c4c4c4;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.hero_sec {
+  overflow: hidden;
+  background-color: #000;
+}
+.circle_bg {
+  background-image: url("../image/home/banner/circles.png");
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero_section {
+  text-align: center;
+  height: 100vh;
+  padding: 20% 0;
+  background-color: transparent;
+}
+.hero_section h1 {
+  font-size: 72px;
+  color: #fff;
+}
+.hero_section h5 {
+  font-size: 32px;
+  color: var(--bs-light-white);
+  line-height: 50px;
+  margin-top: 40px;
+}
+.hero_section h1 span {
+  color: red;
+  background: linear-gradient(
+    65deg,
+    var(--bs-primary-purple) 0%,
+    var(--bs-secondary-green) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.collabration_box {
+  position: relative;
+  top: -80px;
+}
+
+.collabration_box h6 {
+  color: var(--bs-light-blue);
+  text-align: center;
+  font-family: "Syne-Medium";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16.8px; /* 105% */
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.collabration_box ul {
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+  clear: both;
+  list-style: none;
+  padding: 30px 0 15px;
+}
+
+.collabration_box ul li {
+  margin: 0 20px;
+  float: left;
+}
+.our-products {
+  margin-bottom: 90px;
+}
+.our-products .product-card {
+  z-index: 1;
+}
+.our-products .product-card .img-container {
+  width: 118px;
+  height: 118px;
+  border-radius: 100px;
+  background: #211D24;
+}
+.our-products .product-card h4, .our-products .product-card .learn-more {
+  display: none;
+}
+.our-products .product-card p {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: "Syne-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+.our-products .product-card p::first-line {
+  color: #FFF;
+}
+.our-products .product-card:hover {
+  border-radius: 12px;
+  transition: 0.1s ease-in;
+  background: #211D24;
+  cursor: pointer;
+}
+.our-products .product-card:hover h4 {
+  display: block;
+  color: #BA86F9;
+}
+.our-products .product-card:hover .learn-more {
+  display: block;
+  color: #14F195;
+  cursor: pointer;
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+.our-products .product-card:hover p {
+  color: #fff;
+}
+/* Modal-Popup */
+.nexurova-dialog {
+  background: rgba(0, 0, 0, 0.75);
+}
+.nexurova-dialog .modal-dialog {
+  max-width: 55%;
+}
+.nexurova-dialog .modal-dialog .modal-content {
+  padding: 32px;
+  border-radius: 15px;
+  background: #211D24;
+  position: relative;
+}
+.nexurova-dialog .modal-dialog .modal-content .img-grad {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.nexurova-dialog .modal-dialog .modal-content .modal-header {
+  padding: 0;
+}
+.nexurova-dialog .modal-dialog .modal-content .modal-header .close-btn {
+  position: absolute;
+  top: -40px;
+  right: -60px;
+}
+.nexurova-dialog .modal-dialog .modal-content .modal-header .close-btn img {
+  width: 30px;
+}
+.nexurova-dialog .modal-dialog .modal-content .modal-body {
+  padding: 0;
+  color: #C4C4C4;
+}
+.nexurova-dialog .modal-dialog .modal-content .modal-body .highlight {
+  color: #19FB9B;
+}
+.nexurova-dialog .modal-dialog .modal-content .modal-body .modal-img {
+  position: absolute;
+  top: -90px;
+  right: 0;
+}
+.nexurova-dialog .modal-dialog .modal-content .modal-body ul {
+  list-style-type: none;
+  margin: 0 0 0 12px;
+}
+.nexurova-dialog .modal-dialog .modal-content .modal-body ul li {
+  position: relative;
+  margin: 16px 0;
+  font-family: "Syne-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.nexurova-dialog .modal-dialog .modal-content .modal-body ul li::before {
+  content: url("../image/about/star-img.svg");
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  transform: translate(-150%, -55%);
+}

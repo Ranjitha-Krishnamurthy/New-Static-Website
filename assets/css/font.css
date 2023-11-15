@@ -1,0 +1,51 @@
+
+@font-face {
+  font-family: 'Syne-Regular';
+  src: url(../font/Syne/Syne-Regular.ttf) format('truetype') ;
+  font-weight: 400;
+}
+@font-face {
+    font-family: 'Syne-Medium';
+    src: url(../font/Syne/Syne-Medium.ttf) format('truetype') ;
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Syne-SemiBold';
+    src: url(../font/Syne/Syne-SemiBold.ttf) format('truetype') ;
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Syne-Bold';
+    src: url(../font/Syne/Syne-Bold.ttf) format('truetype') ;
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'Helvetica-Regular';
+    src: url(../font/Helvetica/Helvetica.ttf) format('truetype') ;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Helvetica-Bold';
+    src: url(../font/Helvetica/Helvetica-Bold.ttf) format('truetype') ;
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'Poppins-Medium';
+    src: url(../font/Poppins/Poppins-Medium.ttf) format('truetype') ;
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../font/Roboto/Roboto-Regular.ttf) format('truetype') ;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Roboto-Medium';
+    src: url(../font/Roboto/Roboto-Medium.ttf) format('truetype') ;
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../font/Roboto/Roboto-Bold.ttf) format('truetype') ;
+    font-weight: 700;
+  }

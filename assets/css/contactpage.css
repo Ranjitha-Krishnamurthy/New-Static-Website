@@ -1,0 +1,60 @@
+.contact-card{
+    border-radius: 15px;
+background: #211D24;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
+padding: 32px;
+}
+.contact-card .icon{
+    padding-right: 16px;
+}
+.contact-card .label, .contact-card .label a{
+    color: #C4C4C4;
+font-family: Helvetica;
+font-size: 16px;
+font-weight: 400;
+line-height: 37.3px; /* 233.125% */
+}
+.contact-card p{
+    color: #FFF;
+    font-family: "Syne-Regular";
+font-size: 18px;
+font-weight: 400;
+line-height: 37.3px; /* 233.125% */
+letter-spacing: 0.36px;
+}
+.text-green{
+    color: #14F195;
+}
+.contact-card p.time{
+    color: #C4C4C4;
+font-family: Helvetica;
+font-size: 16px;
+font-weight: 400;
+line-height: 37.3px; /* 233.125% */
+}
+ .inner-card{
+    padding: 32px;
+}
+input, textarea, .dropdown, .dropdown-menu{
+    border-radius: 10px;
+background: #211D24;
+color: #C4C4C4;
+font-family: "Syne-Regular";
+font-size: 16px;
+font-weight: 400;
+line-height: 37.3px; /* 233.125% */
+padding: 6px 20px;
+}
+input::placeholder, textarea::placeholder{
+    color: #C4C4C4;  
+}
+textarea{
+    height: 120px;
+}
+.submit {
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: linear-gradient(99deg, #8C01FA -2.99%, #000 102.28%);
+    padding: 16px 33px;
+    color: #fff;
+  }
