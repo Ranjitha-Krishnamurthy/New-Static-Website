@@ -2,6 +2,7 @@
   content: "";
   position: absolute;
   background: url(../image/government/star-img.svg);
+  background-repeat: no-repeat;
   width: 114px;
   height: 148px;
   left: 70px;
@@ -12,10 +13,13 @@
   content: "";
   position: absolute;
   background: url(../image/government/purplestar-img.svg);
-  width: 74px;
-  height: 82px;
-  left: 70px;
-  margin-top: 180px;
+  background-repeat: no-repeat;
+  width: 61px;
+  height: 60px;
+  width: 61px;
+  height: 60px;
+  right: 70px;
+  margin-top: -200px;
 
 }
 .platform-features .col-md-6 p {

@@ -324,3 +324,23 @@ line-height: 37.3px;
     width: 50% !important;
   }
 }
+@media (max-width:640px){
+  .signup h4{
+    font-size: 30px;
+  }
+  .banner{
+    padding:60px 15px 24px
+  }
+  .banner p{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .banner h4{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

@@ -58,3 +58,16 @@ textarea{
     padding: 16px 33px;
     color: #fff;
   }
+  @media(max-width:640px){
+    .inner-card{
+        padding: 15px;
+    }
+    input, textarea, .dropdown, .dropdown-menu{
+        font-size: 14px;
+        line-height: 30px;
+        padding: 6px 10px;
+    }
+    .contact-card{
+        padding: 15px;
+    }
+  }
