@@ -178,6 +178,11 @@
     margin: 0 auto 65px;
     }
 }
+@media(max-width:991px){
+    .custom_nav{
+        background-color: rgba(0, 0, 0);
+    }
+}
 @media(max-width:768px){
     .bg-img{
         height: auto;

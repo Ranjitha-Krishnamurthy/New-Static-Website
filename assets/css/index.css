@@ -324,7 +324,32 @@ line-height: 37.3px;
     width: 50% !important;
   }
 }
+@media(max-width:768px){
+  .banner{
+    padding: 60px 0 34px;
+  }
+  .banner p{
+    font-size: 29px;
+    line-height: 37px;
+  }
+}
 @media (max-width:640px){
+  h2{
+    font-size: 56px;
+    line-height: 70px;
+  }
+  h3{
+    font-size: 34px;
+    line-height: 38px;
+  }
+  h4{
+    font-size: 30px;
+    line-height: 37px;
+  }
+  h5{
+    font-size: 24px;
+    line-height: 26px;
+  }
   .signup h4{
     font-size: 30px;
   }
@@ -340,7 +365,11 @@ line-height: 37.3px;
     line-height: 30px;
   }
   p{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
   }
+  .signup .signup-card .card{
+    width: 90%!important;
+    margin: 0 auto;
+}
 }

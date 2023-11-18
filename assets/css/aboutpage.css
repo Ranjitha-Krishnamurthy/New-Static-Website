@@ -111,4 +111,20 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-}/*# sourceMappingURL=aboutpage.css.map */
+}
+@media(max-width:768px){
+  .introduction .intro-gradient {
+    top: 55%;
+    left: -20%;
+}
+.introduction{
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+}
+@media(max-width:640px){
+  .our-expertise ul li{
+    font-size:18px;
+    line-height: 24px;
+  }
+}

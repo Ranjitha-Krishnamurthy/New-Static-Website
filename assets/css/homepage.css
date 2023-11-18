@@ -319,3 +319,11 @@
   width: 30px;
   transform: translate(-150%, -55%);
 }
+@media(max-width:992px) {
+  .platform-features .col-md-6, .platform-features .col-md-4{
+    padding-right: 12px;
+  }
+  .platform-features:before,.platform-features:after{
+    display: none;
+  }
+}
