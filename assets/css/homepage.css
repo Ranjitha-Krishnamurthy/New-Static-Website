@@ -228,11 +228,13 @@
   clear: both;
   list-style: none;
   padding: 30px 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .collabration_box ul li {
   margin: 0 20px;
-  float: left;
 }
 .our-products {
   margin-bottom: 90px;
@@ -357,4 +359,74 @@
   .platform-features:before,.platform-features:after{
     display: none;
   }
+}
+
+.our-key-feature .flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+  width: 100%;
+  height: 100%;
+}
+
+.our-key-feature .flip-card .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.our-key-feature .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.our-key-feature .flip-card .flip-card-inner .flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 22px;
+}
+.our-key-feature .flip-card .flip-card-inner .flip-card-back {
+  transform: rotateY(180deg);
+  padding: 32px 32px 22px 48px;
+  border-radius: 12px;
+  padding: 1px;
+  background: linear-gradient(-190deg, #a962ff, #58ad8f);
+  backdrop-filter: blur(15px);
+}
+.our-key-feature .flip-card .flip-card-inner .flip-card-back .card-content {
+  padding: 32px 32px 22px 48px;
+  border-radius: 12px;
+  border: 1px solid rgba(248, 248, 248, 0.30);
+  background: rgba(0, 0, 0, 0.80);
+  backdrop-filter: blur(15px);
+}
+.our-key-feature .flip-card .flip-card-inner .flip-card-back h5 {
+  color: #BA86F9;
+  font-family: "Syne-SemiBold";
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 20.16px;
+  margin-bottom: 24px;
+}
+
+.our-key-feature .flip-card .flip-card-inner .flip-card-back p {
+  color: #FFF;
+  font-family: "Syne-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.our-key-feature .flip-card .flip-card-inner .flip-card-back .learn-more {
+  color: #FFF;
+  font-family: 'Syne-Regular';
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 27.3px; 
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
 }
