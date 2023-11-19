@@ -52,11 +52,7 @@
 }
 
 .business-case-studies .nav-tabs .nav-link {
-  border-radius: 10px;
-  border: 1px solid transparent;
-  background: #111;
-  background-clip: padding-box;
-  padding: 10px 13px;
+  padding: 1px;
   margin-left: 10px;
   color: #fff;
   text-align: center;
@@ -67,8 +63,28 @@
   position: relative;
   min-width: 64px;
   height: 48px;
+  border-radius: 10px;
 }
-.business-case-studies .nav-tabs .nav-link.active::after {
+.business-case-studies .nav-tabs .nav-link:hover {
+  border-color: transparent;
+  color: #fff !important;
+}
+.business-case-studies .nav-tabs .nav-link.active{
+  background: #111;
+  background: linear-gradient(-190deg, #a962ff, #58ad8f);
+  border-radius: 10px;
+  border-color: #111;
+  color: #fff;
+}
+.business-case-studies .nav-tabs .nav-link.active:focus{
+  color: #fff !important;
+}
+.business-case-studies .nav-tabs .nav-link .link-name {
+  background-color: #111;
+  padding: 8px 13px;
+  border-radius: 8px;
+}
+/* .business-case-studies .nav-tabs .nav-link.active::after {
   content: "";
   position: absolute;
   top: -1px;
@@ -78,7 +94,7 @@
   background: linear-gradient(to bottom right, #a962ff, #19fb9b);
   z-index: -1;
   border-radius: 10px;
-}
+} */
 .business-case-studies .card-border h6 {
   color: #fff;
   font-size: 25px;
@@ -95,6 +111,9 @@
 }
 .slider {
   animation: slidein 30s linear infinite;
+}
+.slider:hover {
+ animation-play-state: paused;
 }
 @keyframes slidein {
   from {
@@ -145,6 +164,9 @@
   overflow: hidden;
   background-color: #000;
 }
+.hero_sec .black_bg {
+  position: relative;
+}
 .circle_bg {
   background-image: url("../image/home/banner/circles.png");
   width: 100%;
@@ -153,6 +175,7 @@
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 999;
 }
 .hero_section {
   text-align: center;
@@ -216,6 +239,7 @@
 }
 .our-products .product-card {
   z-index: 1;
+  transition: all .8s;
 }
 .our-products .product-card .img-container {
   width: 118px;
@@ -233,6 +257,7 @@
   font-weight: 400;
   line-height: 26px;
   margin-bottom: 8px;
+  transition: all .8s;
 }
 .our-products .product-card p::first-line {
   color: #FFF;
@@ -242,16 +267,22 @@
   transition: 0.1s ease-in;
   background: #211D24;
   cursor: pointer;
+  transition: all .8s;
+}
+.our-products .product-card:hover p{
+  transition: all .8s;
 }
 .our-products .product-card:hover h4 {
   display: block;
   color: #BA86F9;
+  transition: all .8s;
 }
 .our-products .product-card:hover .learn-more {
   display: block;
   color: #14F195;
   cursor: pointer;
-  margin-bottom: 16px;
+  margin-top: 14px;
+  margin-bottom: 18px;
   font-size: 12px;
 }
 .our-products .product-card:hover p {

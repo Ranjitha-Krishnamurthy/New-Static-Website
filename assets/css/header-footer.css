@@ -34,14 +34,14 @@
     left: -5%;
     z-index:0;
     }
-    .purple_blob{
-        position: absolute;
-        bottom: -30%;
-        justify-content: center;
-       right: 0;
-       z-index: -1; 
-        }
-  
+.purple_blob{
+    position: absolute;
+    bottom: -30%;
+    justify-content: center;
+    right: 0;
+    z-index: 1; 
+}
+
     
     .bg-shapel{
         position: relative;
@@ -117,6 +117,10 @@
     color: #C4C4C4;
     max-width: 90%;
     margin: 0 auto;
+}
+.footer svg:hover path {
+    stroke: #14F195;
+    cursor: pointer;
 }
 .footer-logo {
     height: 46px;
