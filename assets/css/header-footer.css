@@ -79,10 +79,12 @@
 .nav-link:focus, .nav-link:hover{
     color: var(--bs-secondary-green) !important;
 }
-.navbar-expand-lg{
+/* .navbar-expand-lg{
     padding: 0 !important;
+} */
+.navbar-toggler-icon{
+    background-image:url(../image/header/menu-icon.svg)
 }
-
 .navbar-expand-lg li a{
     color: #A8A8A8;
     text-align: center;
